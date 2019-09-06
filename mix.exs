@@ -29,7 +29,7 @@ defmodule PubNux.Mixfile do
   defp deps do
     [
       {:poison, "~> 3.1.0"},
-      {:httpoison, "~> 1.0.0", override: true},
+      {:httpoison, "~> 1.5.0", override: true},
       {:exvcr, "~> 0.10", only: :test},
       {:dialyxir, "~> 0.4.1", only: :dev},
       {:credo, "~> 0.7.4", only: [:dev, :test]},
